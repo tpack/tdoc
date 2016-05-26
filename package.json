@@ -1,0 +1,22 @@
+{
+  "name": "tdoc",
+  "version": "0.0.1",
+  "description": "JavaScript 和 TypeScript 文档生成器。| Document generator for javascript and typescript.",
+  "keywords": [
+    "js doc",
+    "ts doc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tpack/tdoc"
+  },
+  "bugs": {
+    "url": "https://github.com/tpack/tdoc/issues",
+    "email": "xuld@vip.qq.com"
+  },
+  "author": {
+    "name": "xuld",
+    "email": "xuld@vip.qq.com"
+  },
+  "license": "MIT"
+}

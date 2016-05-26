@@ -1,0 +1,25 @@
+[
+    {
+        "name": "C",
+        "documentation": "Documentation for C ",
+        "type": "typeof C",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "a",
+                        "documentation": "",
+                        "type": "string"
+                    },
+                    {
+                        "name": "b",
+                        "documentation": "",
+                        "type": "C"
+                    }
+                ],
+                "returnType": "C",
+                "documentation": "比较两个引用对象的内容是否相同。\n@returns 如果比较的对象相同则返回 true，否则返回 false。\n@example Object.areSame([], []) // true"
+            }
+        ]
+    }
+]

@@ -2,7 +2,7 @@
 import * as ts from "typescript";
 import * as fs from "fs";
 
-import * as Parser from './parser';
+import {DocParser} from './parser';
 
 interface DocEntry {
     name?: string,
@@ -93,10 +93,9 @@ function generateDocumentation(fileNames: string[], options: ts.CompilerOptions)
 //    target: ts.ScriptTarget.ES5, module: ts.ModuleKind.CommonJS
 //});
 
-
-var r = Parser.parseDocs(process.argv.slice(2), {
+var r = new DocParser().parse(ts.createProgram(["../test/basic/basic.ts"], {
     target: ts.ScriptTarget.ES5,
     module: ts.ModuleKind.CommonJS
-});
+}));
 
 console.log(r);

@@ -44,11 +44,14 @@
     <TypeScriptCompile Include=".vscode\typings\node\node.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\node\node.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\node\node.d.ts" />
+    <TypeScriptCompile Include=".vscode\typings\node\node.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\chokidar.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\chokidar.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\chokidar.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\chokidar.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\chokidar.d.ts" />
+    <TypeScriptCompile Include=".vscode\typings\tpack\chokidar.d.ts" />
+    <TypeScriptCompile Include=".vscode\typings\tpack\source-map.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\source-map.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\source-map.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tpack\source-map.d.ts" />
@@ -57,6 +60,7 @@
     <TypeScriptCompile Include=".vscode\typings\tutils\tutils.d.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <TypeScriptCompile Include=".vscode\typings\tutils\tutils.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tutils\tutils.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tutils\tutils.d.ts" />
     <TypeScriptCompile Include=".vscode\typings\tutils\tutils.d.ts" />
